@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+	font-family: Arial, sans-serif;
+}		
+header{
+	background-color: #000000;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10px;
+}
+.logo img{
+	max-width: 300px;
+}
+.menu ul {
+	list-style-type: none;
+	display: flex;
+}
+.menu ul li{
+	margin-right: 150px;
+}
+.menu ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.menu ul li a:hover{
+text-decoration: underline;
+}
+.continer{
+	display: flex;
+	margin: 20px;
+}
+.col1, .col2 {
+	padding: 20px;
+	border: 1px solid #000;
+	margin-right: 20px;
+}
+.col1 {
+	width: 30%;
+}
+.col2{
+	width: 65%;
+}
+h2{
+	margin-bottom: 20px;
+}
+.post {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #ddd;
+}
+.post img{
+	margin-bottom: 10px;
+}
+.post p {
+	margin-left: 15px;
+}
+.search-bar
+{
+	margin-bottom: 20px;
+}
+footer {
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
