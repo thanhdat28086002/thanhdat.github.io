@@ -5,9 +5,6 @@
 <title>takada fc</title>
 	<link rel="stylesheet" href="siu.css">
 	<style type="text/css">
-	body,td,th {
-    color: #000000;
-}
     </style>
 </head>
 <body>
